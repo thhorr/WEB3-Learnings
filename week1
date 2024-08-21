@@ -1,0 +1,5 @@
+1. Zero-knowledge proofs (ZKPs) allow you to prove something is true without revealing the details. 
+   These proofs are essential for ensuring privacy, security, and scalability in web3 applications like private transactions, 
+   decentralized finance (DeFi), and more. 
+
+2. zkVerify isn't just another blockchain; it's a blockchain purpose-built for ZKPs verification.

@@ -3,3 +3,8 @@
    decentralized finance (DeFi), and more. 
 
 2. zkVerify isn't just another blockchain; it's a blockchain purpose-built for ZKPs verification.
+
+3. Puppy Raffle Audit:
+
+   a. If a `for loop` is seen in the SC maybe its prone to a Denial Of Service (DOS) attack.So better watch out for this while doing auditing.
+   b. DOS can happen also because of External Call to a function failing , Blocking of gas limit.

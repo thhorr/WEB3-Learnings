@@ -8,3 +8,12 @@
 
    a. If a `for loop` is seen in the SC maybe its prone to a Denial Of Service (DOS) attack.So better watch out for this while doing auditing.
    b. DOS can happen also because of External Call to a function failing , Blocking of gas limit.
+
+4. Slashing occurs when a validator has provably acted against the Ethereum network. Slashing doesn’t need to have malicious intent necessarily for example,
+   it could   happen from misconfiguration. The validator acted in a way the can confuse or disrupt the integrity of the system It removes, or ‘slashes’,
+   a portion of the offending validators existing stake, causing a gradual loss of ETH over time until the validator is forcefully ejected and marked as SLASHED.
+   This is irreversible.
+
+5. Slashing is not to be confused with inactivity penalties, which are normal loss of funds incurred over time the longer your validator is offline and unable
+   to perform its duties. A validator that correctly follows the protocol never emits a slashable vote in normal operations. Validators will not be slashed for
+   simply being offline.

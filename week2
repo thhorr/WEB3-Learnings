@@ -4,3 +4,6 @@
 2. zkSTARKs (Zero-Knowledge Scalable Transparent Argument of Knowledge) are newer and focus on handling bigger and more complex proofs
    efficiently. They skip the trusted setup part, which makes them more transparent and theoretically safer in some ways. However, they
    tend to have larger proofs and can take longer to verify compared to zkSNARKs.
+
+3. Re-entrancy attack can be mitigated by following the Check,Effect,Implication(CEI) pattern while writing the smart contract. Another
+   way to mitigate it is to start using Re-entrancy guard by Open-Zeppelin on certain functions.

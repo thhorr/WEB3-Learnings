@@ -7,3 +7,13 @@
 
 3. Re-entrancy attack can be mitigated by following the Check,Effect,Implication(CEI) pattern while writing the smart contract. Another
    way to mitigate it is to start using Re-entrancy guard by Open-Zeppelin on certain functions.
+
+4. Even though Tornado Cash's front-end interface and official repositories were taken down following the sanctions, the protocol itself remains operational on the
+   Ethereum blockchain. Users with the technical know-how can interact directly with Tornado Cash smart contracts using decentralized tools like :
+
+   Etherscan : The smart contracts can be accessed and triggered through blockchain explorers.
+   Command-line interfaces (CLI) : Experienced users can bypass user interfaces (UIs) and interact directly with Tornado Cash contracts.
+   Custom-built interfaces : Individuals could create their own front-end interfaces to interact with the Tornado Cash contract without relying on the now-banned web interfaces.
+
+5. Thus decentralization ensures that as long as the Ethereum blockchain exists, so too will Tornado Cash’s functionality, even if its developers or platforms face
+   legal issues.
